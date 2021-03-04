@@ -1,0 +1,38 @@
+.nav-tabs .nav-item{
+    color: rgb(3, 4, 5) !important;
+}
+
+.container{
+    padding-top: 24px !important;
+    padding-bottom: 24px !important;
+}; 
+
+.add-customer{
+    margin-left : 75px !important;
+}
+
+.input-margin-common{
+    margin: 8px;
+}
+
+.col-md-10{
+    padding-left: 0px;
+}
+table{
+    overflow: scroll; 
+    display:block
+}
+
+.customer-space{
+    height: 400px;
+}
+.employye-table{
+    margin: 8px;
+}
+
+.inline-space {
+    margin: 4px;
+}
+
+
+
