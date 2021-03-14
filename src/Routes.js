@@ -4,6 +4,7 @@ import React, { Component } from "react";
 import { Router, Route, Switch } from 'react-router-dom';
 import ManageOrders from "./pages/ManageOrders";
 import CreateNew from "./pages/CreateNew";
+import CreateOrder from "./pages/CreateOrder";
 import App from './App';
 import history from './history';
 
@@ -15,6 +16,7 @@ export default class Routes extends Component {
                     <Route exact path="/" component={App} />
                     <Route path="/manageOrders" component={ManageOrders} />
                     <Route path="/createNew" component={CreateNew} />
+                    <Route path="/createOrder" component={CreateOrder} />
                 </Switch>
             </Router>
         )

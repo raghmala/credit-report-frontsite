@@ -42,5 +42,6 @@ body.jw-modal-open {
 }
 
 .customer-input{
-    width:220px;
+    width:190px;
+    display: inline-block !important;
 }

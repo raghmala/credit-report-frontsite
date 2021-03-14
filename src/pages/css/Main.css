@@ -9,10 +9,12 @@
 
 .add-customer{
     margin-left : 75px !important;
+    margin-right: 0px !important;
+    padding-right: 16px !important;
 }
 
 .input-margin-common{
-    margin: 8px;
+    margin: 8px 8px 8px 0px;
 }
 
 .col-md-10{
@@ -32,6 +34,106 @@ table{
 
 .inline-space {
     margin: 4px;
+}
+.btn-edit {
+  background-color: rgb(156, 161, 123) !important; 
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Darker background on mouse-over */
+.btn-edit:hover {
+  background-color: RoyalBlue;
+}
+
+.customer-search{
+  background-color: rgb(28, 163, 51) !important; 
+  border: none; 
+  color: white; 
+  padding: 12px 16px; 
+  font-size: 16px; 
+  cursor: pointer;
+}
+.customer-search:hover {
+  background-color: rgb(66, 102, 72);
+}
+
+.ReactTable .rt-thead .rt-th.-sort-asc,
+.ReactTable .rt-thead .rt-td.-sort-asc {
+    box-shadow: inset 0 0px 0 0 rgba(0, 0, 0, 0.6) !important
+}
+
+.ReactTable .rt-thead .rt-th.-sort-desc,
+.ReactTable .rt-thead .rt-td.-sort-desc {
+    box-shadow: inset 0 0px 0 0 rgba(0, 0, 0, 0.6) !important
+}
+
+div.-sort-desc::after {
+    content: " \25BC" !important;
+    float: right !important;
+}
+
+div.-sort-asc::after {
+    content: " \25B2" !important;
+    float: right !important;
+}
+
+.rt-th.rt-resizable-header {
+    background-color: gainsboro !important;
+}
+.close-button{
+  background-color: rgb(12, 10, 10) !important; 
+  border: none; 
+  color: rgb(14, 8, 8); 
+  font-size: 16px; 
+  cursor: pointer;  
+}
+
+.modal-header, .modal-footer {
+    background-color: gainsboro !important;
+}
+
+
+.bs-accordion.panel-heading {
+    padding: 0; 
+}
+.bs-accordion.panel-heading a{
+   display: block;
+   padding: 10px 15px;
+}
+a[aria-expanded=true] .bi-chevron-compact-down{     
+          transform: rotate(-90deg);
+          transition: transform 350ms cubic-bezier(0.645, 0.045, 0.355, 1);        
+}
+
+.bi-chevron-compact-down {
+        transition: transform 350ms cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.order-header{
+    padding-bottom: 4px !important;
+    margin-top: 8px !important;
+
+}
+
+.panel-collapse{
+    border: solid;
+    border-width: 2px !important;
+}
+
+.send-email{
+    background-color: darkslategrey !important;
+}
+
+.download-pdf{
+    background-color: indianred !important;
+}
+
+.report-label{
+    width: 120px;
 }
 
 
